@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeTextActivity"
+    android:orientation="vertical"
+    android:background="@drawable/change_text_bg">
+
+    <TextView
+        android:id="@+id/change_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:text="留下一句话吧~~"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/textColor"/>
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="点击此处填写"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/text_ok_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="确认"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
